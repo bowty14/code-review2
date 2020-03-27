@@ -17,6 +17,8 @@ h1, h2 {
   border: solid;
   padding: 1px;
   background-color: seashell;
+  border-color: yellow orange green orangered;
+  font-family: sans-serif;
 }
 #fun, #color, #iceCream, #animal, #coffee {
   background-color:azure;
@@ -26,8 +28,20 @@ h1, h2 {
   margin: 25%;
   background-color:powderblue;
 }
-#americano, #mocha, #frapuccino {
+#americano {
   display: none;
+  margin-left: 40%;
+  margin-top: -20%;
+}
+#mocha {
+  display: none;
+  margin-left: 40%;
+  margin-top: -36%;
+}
+#frapuccino {
+  display: none;
+  margin-left: 40%;
+  margin-top: -37%;
 }
 #csharp {
   width: 30%;
