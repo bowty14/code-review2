@@ -6,6 +6,8 @@
        $('#americano').show();
      } else if (coffee === 'mocha') {
         $('#mocha').show();
+     } else if (coffee === 'frapuccino') {
+       $('#frapuccino').show();
      }
      event.preventDefault();
    })
