@@ -2,11 +2,10 @@
    
    $("form#formOne").submit(function() {
         event.preventDefault();
-        
+
      var nameInput = $("input#user").val();
      var coffee = $("select#coffee").val();
-     $("#name").append(nameInput);
-
+     
 
      if (coffee === 'americano') {
        $('#americano').show();
@@ -16,7 +15,8 @@
        $('#frapuccino').show();
      } 
      
-       
+     $(".name").append(nameInput);
+
 
      
    })
