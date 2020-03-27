@@ -1,6 +1,9 @@
 body {
   background-image: linear-gradient(red, yellow);
 }
+#americano, #mocha, #frapuccino {
+  display: none;
+}
 #csharp {
   width: 30%;
 }
