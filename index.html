@@ -15,66 +15,68 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-    <h4 class="q1">Q 1.What would you like to do in your free time?</h4>
-    <form id="question1">
-      <label for="book">read a book, </label>
-      <label for="movie">watch a movie, </label>
-      <label for="hike">or go on a hike.</label>
-      <select id="fun">
-        <option value="book">Read a book.</option>
-        <option value="movie">Watch a movie</option>
-        <option value="hike">Go on a hike</option>
-      </select>
-      <h4 class="q2">Q 2. What is your favorite color?</h4>
-      <label for="green">green,</label>
-      <label for="red">red, </label>
-      <label for="blut">or blue</label>
-      <select id="color">
-        <option value="green">Green</option>
-        <option value="red">Red</option>
-        <option value="blue">Blue</option>
-      </select>
-      <h4 class="q3">Q 3.What is your favorite icecream</h4>
-      <label for="chocolate">chocolate,</label>
-      <label for="vanilla">vanilla, </label>
-      <label for="strawberry">or strawberry</label>
-      <select id="iceCream">
-        <option value="chocolate">Chocolate</option>
-        <option value="vanilla">Vanilla</option>
-        <option value="strawberry">Strawberry</option>
-      </select>
-      <h4 class="q4">Q 4.What is your favorite animal</h4>
-      <label for="cat">cat,</label>
-      <label for="dog">dog, </label>
-      <label for="bird">or bird</label>
-      <select id="animal">
-        <option value="cat">Cat</option>
-        <option value="dog">Dog</option>
-        <option value="bird">Bird</option>
-      </select>
-      <h4 class="">Q 5.How kind of coffee do you like?</h4>
-      <label for="americano">americano,</label>
-      <label for="mocha">mocha, </label>
-      <label for="frapuccino">or frapuccino.</label>
-      <select id="coffee">
-        <option value="americano">Americano</option>
-        <option value="mocha">Mocha</option>
-        <option value="frapuccino">Frapuccino</option>
-      </select>
-      <button type="submit" class="btn">Submit!</button>
-    </form>
+        <form id="formOne">
+            <label for="userName">Please enter your name.</label>
+            <input id="user" class="formControl" type="text">
+        <h4 class="q1">Q 1.What would you like to do in your free time?</h4>
+          <label for="book">read a book, </label>
+          <label for="movie">watch a movie, </label>
+          <label for="hike">or go on a hike.</label>
+          <select id="fun">
+            <option value="book">Read a book.</option>
+            <option value="movie">Watch a movie</option>
+            <option value="hike">Go on a hike</option>
+          </select>
+          <h4 class="q2">Q 2. What is your favorite color?</h4>
+          <label for="green">green,</label>
+          <label for="red">red, </label>
+          <label for="blut">or blue</label>
+          <select id="color">
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+          </select>
+          <h4 class="q3">Q 3.What is your favorite icecream</h4>
+          <label for="chocolate">chocolate,</label>
+          <label for="vanilla">vanilla, </label>
+          <label for="strawberry">or strawberry</label>
+          <select id="iceCream">
+            <option value="chocolate">Chocolate</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="strawberry">Strawberry</option>
+          </select>
+          <h4 class="q4">Q 4.What is your favorite animal</h4>
+          <label for="cat">cat,</label>
+          <label for="dog">dog, </label>
+          <label for="bird">or bird</label>
+          <select id="animal">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="bird">Bird</option>
+          </select>
+          <h4 class="">Q 5.How kind of coffee do you like?</h4>
+          <label for="americano">americano,</label>
+          <label for="mocha">mocha, </label>
+          <label for="frapuccino">or frapuccino.</label>
+          <select id="coffee">
+            <option value="americano">Americano</option>
+            <option value="mocha">Mocha</option>
+            <option value="frapuccino">Frapuccino</option>
+          </select>
+          <button type="submit" class="btn">Submit!</button>
+        </form>
       </div>
     </div>
     <div id="americano">
-      <h3><em>Congratulations!!</em> </br>Based on your answers you would </br>make a great C# developer!! </h3>
+      <h3> <em>Congratulations!!</em> <p id="name"></p> Based on your answers you would </br>make a great C# developer!! </h3>
       <img id="csharp" src="https://bit.ly/2UovHqa" alt="csharp">
     </div>
     <div id="mocha">
-      <h3><em>Congratulations!!</em> </br>Based on your answers you would </br>make a great Python developer!!</h3>
+      <h3><em>Congratulations!!</em><p id="name"></p> Based on your answers you would </br>make a great Python developer!!</h3>
       <img id="python" src="https://bit.ly/2xqtvWa" alt="Python">
     </div>
     <div id="frapuccino">
-      <h3><em>Congratulations!!</em> </br>Based on your answers you would </br>make a great Ruby developer!!</h3>
+      <h3><em>Congratulations!!</em><p id="name"></p> Based on your answers you would </br>make a great Ruby developer!!</h3>
       <img id="ruby" src="https://bit.ly/2wvL3jH" alt="ruby">
     </div>
   
