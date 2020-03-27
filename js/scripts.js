@@ -1,8 +1,10 @@
  $(document).ready(function() {
-   $("form#question5").submit(function(event) {
+   $("form#question3").submit(function(event) {
+     var iceCream = $("select#iceCream").val();
+     var animal = $("select#animal").val();
      var coffee = $("select#coffee").val();
 
-     if (coffee === 'americano') {
+     if (coffee === 'americano' && animal === 'cat' && iceCream === 'chocolate') {
        $('#americano').show();
      } else if (coffee === 'mocha') {
         $('#mocha').show();
