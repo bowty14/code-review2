@@ -1,1 +1,12 @@
- 
+body {
+  background-image: linear-gradient(red, yellow);
+}
+#csharp {
+  width: 30%;
+}
+#python {
+  width: 35%;
+}
+#ruby {
+  width: 30%;
+}
