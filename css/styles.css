@@ -1,6 +1,10 @@
 body {
   background-image: linear-gradient(green, yellow, orange);
 }
+
+.container{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .jumbotron{
   background-color:orange;
   color: snow;
@@ -8,12 +12,19 @@ body {
 h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
-.container{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.col-md-4 {
+  margin: 2%;
+  border: solid;
+  padding: 1px;
+  background-color: seashell;
+}
+#fun, #color, #iceCream, #animal, #coffee {
+  background-color:azure;
+  margin: 2%;
 }
 .btn {
   margin: 25%;
-  background-color: red;
+  background-color:powderblue;
 }
 #americano, #mocha, #frapuccino {
   display: none;
