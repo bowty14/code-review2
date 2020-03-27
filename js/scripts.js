@@ -4,7 +4,7 @@
      var animal = $("select#animal").val();
      var coffee = $("select#coffee").val();
 
-     if (coffee === 'americano' && animal || 'cat' && iceCream || 'chocolate') {
+     if (coffee === 'americano' && animal === 'cat' && iceCream === 'chocolate') {
        $('#americano').show();
      } else if (coffee === 'mocha') {
         $('#mocha').show();
