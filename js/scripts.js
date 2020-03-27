@@ -8,7 +8,13 @@
 
      if (coffee === 'americano' && animal === 'cat' && iceCream === 'chocolate' && color === 'green' && fun === 'book') {
        $('#americano').show();
-     } else if (coffee === 'americano' && animal === 'dog' && iceCream === 'vanilla' && color === 'red' && fun === 'movie') {
+     } else if (coffee === 'americano' && animal === 'cat' && iceCream === 'vanilla' && color === 'red' && fun === 'movie') {
+       $('#americano').show();
+     } else if (coffee === 'americano' && animal === 'cat' && iceCream === 'strawberry' && color === 'blue' && fun === 'hike') {
+       $('#americano').show();
+     } else if (coffee === 'americano' && animal === 'cat' && iceCream === 'strawberry' && color === 'blue' && fun === 'hike') {
+       $('#americano').show();
+     } else if (coffee === 'americano' && animal === 'bird' && iceCream === 'vanilla' && color === 'green' && fun === 'book') {
        $('#americano').show();
      } else if (coffee === 'mocha' && animal === 'dog' && iceCream === 'vanilla' && color === 'red' && fun === 'movie') {
         $('#mocha').show();
