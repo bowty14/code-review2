@@ -25,7 +25,7 @@ h2 {
   font-family: sans-serif;
 }
 
-#fun, #color, #iceCream, #animal, #coffee {
+#fun, #color, #iceCream, #animal, #coffee, #user{
   background-color:azure;
   margin: 2%;
 }
