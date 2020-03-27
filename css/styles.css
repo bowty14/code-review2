@@ -1,6 +1,9 @@
 body {
   background-image: linear-gradient(red, yellow);
 }
+h1, h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 #americano, #mocha, #frapuccino {
   display: none;
 }
