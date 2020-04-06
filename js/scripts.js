@@ -15,7 +15,7 @@
        $('#frapuccino').show();
      } 
      
-     $(".name").append(nameInput);
+     $(".name").text(nameInput);
 
 
      
