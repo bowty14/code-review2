@@ -9,8 +9,12 @@ body {
   background-color:orange;
   color: snow;
 }
-h1, h2 {
+h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  color:black;
 }
 .col-md-4 {
   margin: 2%;
@@ -21,13 +25,16 @@ h1, h2 {
   font-family: sans-serif;
 }
 
-#fun, #color, #iceCream, #animal, #coffee {
+#fun, #color, #iceCream, #animal, #coffee, #user{
   background-color:azure;
   margin: 2%;
 }
 .btn {
   margin: 25%;
   background-color:powderblue;
+}
+h3 {
+  font-family: sans-serif;
 }
 #americano {
   display: none;
