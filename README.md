@@ -1,6 +1,6 @@
 # _Developer Quiz_
 
-#### _{This is a 5 question quiz, March 27th, 2020_
+#### _{This is a 5 question quiz, April 5th, 2020_
 
 #### By _**Tyler Bowerman**_
 
@@ -17,7 +17,8 @@ _This is a five question quiz that when giving answers it will tell you what pro
 
 ## Known Bugs
 
-_One bug that I have come across is that if you submit your answers youll get that result and if you change your answers before reloading the page it will display another result without hiding the first result._
+_Update to application on 4/5/2020 will fix a bug that would pile results on top of one another and would insert the user name over and over again.
+          Fixed(One bug that I have come across is that if you submit your answers youll get that result and if you change your answers before reloading the page it will display another result without hiding the first result.)_
 
 ## Support and contact details
 
