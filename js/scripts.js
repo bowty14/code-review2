@@ -12,9 +12,13 @@
        $('#mocha').hide();
        $('#frapuccino').hide();
      } else if (coffee === 'mocha') {
-        $('#mocha').show();
+        $('#americano').hide();
+       $('#mocha').slideToggle();
+       $('#frapuccino').hide();
      } else if (coffee === 'frapuccino') {
-       $('#frapuccino').show();
+       $('#americano').hide();
+       $('#mocha').hide();
+       $('#frapuccino').slideToggle();
      } 
      
      $(".name").text(nameInput);
