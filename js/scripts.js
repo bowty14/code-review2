@@ -8,7 +8,9 @@
      
 
      if (coffee === 'americano') {
-       $('#americano').show();
+       $('#americano').slideToggle();
+       $('#mocha').hide();
+       $('#frapuccino').hide();
      } else if (coffee === 'mocha') {
         $('#mocha').show();
      } else if (coffee === 'frapuccino') {
